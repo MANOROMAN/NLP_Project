@@ -1,0 +1,11 @@
+# --- backend ---
+cd C:\NLP_Project\backend
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+
+# --- frontend (yeni sekme) ---
+cd C:\NLP_Project\frontend
+npm install
+npm run dev

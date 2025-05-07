@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+torch>=2.0
+torchaudio
+faster-whisper
+transformers
+sentencepiece
+nltk
+python-multipart
+ffmpeg-python
+yt-dlp          

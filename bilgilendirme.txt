@@ -1,0 +1,18 @@
+from fastapi import FastAPI
+Bu satır aslında şunu yapıyor:
+
+FastAPI bir Python framework’üdür (Flask gibi).
+
+FastAPI() ifadesi, bir web uygulaması başlatır.
+
+app = FastAPI(...) ile bu uygulama nesnesi oluşturulur.
+
+Bu app nesnesine route'lar (örneğin @app.post(...)) ekleyerek kendi fonksiyonlarını tanımlarsın.
+
+Yani burada geçen “API”,
+
+senin başka bir yerden veri çektiğin bir şey değil,
+
+senin yazdığın servisi tanımlamak için kullanılan FastAPI framework’ünün ismi.
+
+Sen API kullanmıyorum dediğinde doğru düşünüyorsun: Çünkü ses-metin ve soru üretimi işlemlerinde OpenAI API gibi dış servis kullanmıyorsun, kendi modelini kullanıyorsun.
